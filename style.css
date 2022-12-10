@@ -5,7 +5,6 @@
 }
 body {
   background: url(bg.jpg) no-repeat center center/ cover;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +68,9 @@ body {
   #faq {
     width: 85%;
   }
-
+  .faq-content.active .question {
+    font-size: 13px;
+  }
   .question,
   .answer {
     font-size: 16px;
